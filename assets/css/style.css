@@ -1968,3 +1968,12 @@ img.imgthumb {
       margin-top: 0;
   }
 }
+
+.hover-yellow {
+  color: rgb(255, 255, 255); /* Warna teks normal */
+  text-decoration: underline; /* Garis bawah teks */
+}
+
+.hover-yellow:hover {
+  color: var(--vegas-gold); /* Warna teks saat hover (kuning) */
+}
